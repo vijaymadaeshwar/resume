@@ -11,7 +11,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Vijayamadaeshwar-00C7B7?style=for-the-badge)](https://vijayamadaeshwar-portfolio.vercel.app)
 [![CDI Live Dashboard](https://img.shields.io/badge/CDI_Live_Dashboard-Open-28C76F?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://cdi-dashboard.vercel.app)
 [![Email](https://img.shields.io/badge/Email-mvijayamadaeshwar%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mvijayamadaeshwar@gmail.com)
-[![Profile views](https://komarev.com/ghpvc/?username=vijaymadaeshwar&color=8B5CF6)](https://github.com/vijaymadaeshwar/vijayamadaeshwar)
+[![Profile views](https://komarev.com/ghpvc/?username=vijaymadaeshwar&color=8B5CF6)](https://github.com/vijaymadaeshwar)
 
 </div>
 
@@ -152,7 +152,7 @@ Kamaraj College of Engineering & Technology · CGPA **7.72** · Graduated **2025
 [![Download Resume](https://img.shields.io/badge/Download_Resume-8B5CF6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/vijaymadaeshwar/vijaymadaeshwar/raw/main/resume.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vijayamadaeshwar-mariappan)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00C7B7?style=for-the-badge)](https://vijayamadaeshwar-portfolio.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-vijaymadaeshwar-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vijaymadaeshwar/vijayamadaeshwar)
+[![GitHub](https://img.shields.io/badge/GitHub-vijaymadaeshwar-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vijaymadaeshwar)
 [![Email](https://img.shields.io/badge/Email-mvijayamadaeshwar%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mvijayamadaeshwar@gmail.com)
 
 *"Data tells the story — I make sure decision-makers can read it."*
