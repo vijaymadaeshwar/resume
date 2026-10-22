@@ -22,8 +22,9 @@ jobs:
         run: |
           set -e
           mkdir -p "${{ github.workspace }}/snake-out"
-          find "${{ github.workspace }}" -name 'github-snake*.svg' -type f -exec cp {} "${{ github.workspace }}/snake-out/" \;
-          ls -la "${{ github.workspace }}/snake-out"
+          find "${{ github.workspace }}" -name '*.svg' -type f -exec cp {} "${{ github.workspace }}/snake-out/" \;
+          echo "--- workspace ---"; ls -la "${{ github.workspace }}"
+          echo "--- collected ---"; ls -la "${{ github.workspace }}/snake-out"
       - name: Commit snake to output branch
         run: |
           set -e
