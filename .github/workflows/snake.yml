@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -15,10 +18,19 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: 'dist'
-      - name: Commit snake animation to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Collect generated SVGs
+        run: |
+          set -e
+          mkdir -p "${{ github.workspace }}/snake-out"
+          find "${{ github.workspace }}" -name 'github-snake*.svg' -type f -exec cp {} "${{ github.workspace }}/snake-out/" \;
+          ls -la "${{ github.workspace }}/snake-out"
+      - name: Commit snake to output branch
+        run: |
+          set -e
+          cd "${{ github.workspace }}/snake-out"
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "chore: update contribution snake"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ github.repository }}.git" HEAD:output
